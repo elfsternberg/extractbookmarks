@@ -21,8 +21,8 @@ To use, clone the repo:
 Example
 -------
 
-$ hy ./extract-enex <path to Evernote archive>
-$ hy ./extract-delicious 'http://del.icio.us/your-name?page=1' > Delicious.org
+    $ hy ./extract-enex <path to a .enex archive>
+    $ hy ./extract-delicious 'http://del.icio.us/your-name?page=1' > Delicious.org
 
 The Enex extraction will create a default Bookmarks.org file, with each
 individual bookmark in its own slugified file.  Adjust at will.
