@@ -1,0 +1,6 @@
+# Using:
+hy
+slugify
+bs4
+html2text
+requests
